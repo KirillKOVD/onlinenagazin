@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 namespace onlinemagazine
 {
-    // Интерфейс «Товар»
+    
     public interface IProduct
     {
-        string GetName(); // Получить название товара
-        decimal GetPrice(); // Получить цену товара
-        string GetDescription(); // Получить описание товара
+        string GetName(); 
+        decimal GetPrice(); 
+        string GetDescription(); 
     }
 
     // Интерфейс «Корзина»
